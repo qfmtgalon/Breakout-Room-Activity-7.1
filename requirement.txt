@@ -212,3 +212,4 @@ yamllint==1.23.0
 yarl==1.4.2
 zipp==1.0.0
 ipapi==1.0.4
+ipython==8.6.0
