@@ -1,4 +1,4 @@
-from ipapi import get_location
+from Ipython.core.ipapi import get_location
 
 def get_length(): 
     return len(get_location())
