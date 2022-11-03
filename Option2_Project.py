@@ -20,6 +20,9 @@ def get_location():
     } 
    
     return location_data
-res = get_location() 
-for x, y in res.items(): 
-    print(f"{x}: {y}")
+
+if __name__ == "__main__":
+    res = get_location()  
+
+    for x, y in res.items(): 
+        print(f"{x}: {y}")
